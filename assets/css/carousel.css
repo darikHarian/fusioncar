@@ -30,6 +30,7 @@
 
 .carousel-caption {
   height: 20vh;
+  margin-bottom: 15vh;
 }
 
 .caption-title {
@@ -70,6 +71,7 @@
 @media only screen and (min-width: 992px) {
   .carousel-caption {
     width: 40vw;
+    margin-bottom: 30vh;
   }
 
   .caption-title {

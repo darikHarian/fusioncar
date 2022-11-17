@@ -14,6 +14,18 @@ body {
     width: 100%;
 }
 
+.sh-light {
+    text-shadow: #f5f5f5 !important;
+}
+
+.sh-dark {
+    text-shadow: 1px 2px 3px #000;
+}
+
+.space-mobile {
+    height: 110px;
+}
+
 /* Screen SM */
 @media only screen and (min-width: 576px) {
 
