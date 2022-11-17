@@ -11,5 +11,44 @@ body {
     background: #22252a;
     box-shadow:  10px 10px 60px #2a2b2b,
              -10px -10px 60px #343636;
-    width: 10em;
+    width: 100%;
+}
+
+/* Screen SM */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Screen MD */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Screen LG */
+@media only screen and (min-width: 992px) {
+    .nav-item {
+        width: 6.5em;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+/* Screen XL */
+@media only screen and (min-width: 1200px) {
+    .nav-item {
+        width: 8em;
+    }
+}
+
+/* Screen XXL */
+@media only screen and (min-width: 1400px) {
+    .nav-item {
+        width: 10em;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
 }
