@@ -24,7 +24,7 @@
 }
 
 .carousel-item img {
-  height: 100vh;
+  height: 80vh;
   object-fit: cover;
 } 
 
@@ -70,7 +70,7 @@
 @media only screen and (min-width: 992px) {
   .carousel-caption {
     width: 40vw;
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
   }
 
   .caption-title {
