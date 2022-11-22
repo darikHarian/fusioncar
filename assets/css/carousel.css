@@ -23,6 +23,10 @@
   transform: translate3d(0px ,0px, 100px);
 }
 
+.vw-carousel-item {
+  transform: translate3d(0px ,0px, 0px);
+}
+
 .carousel-item img {
   height: 80vh;
   object-fit: cover;
@@ -38,6 +42,11 @@
 
 .caption-text {
   font-size: 16px;
+}
+
+.vw-carousel-item img {
+  height: 40vh;
+  width: 100%;
 }
 
 .vw-carousel-caption {
@@ -94,9 +103,9 @@
   }
 
   .vw-carousel-caption {
-    width: 40vw;
+    width: 30vw;
     height: 8em;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
   }
 
   .vw-caption-title {
