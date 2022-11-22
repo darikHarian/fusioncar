@@ -1,10 +1,12 @@
-  .content {
+  .card-content {
     position: relative;
     margin: auto;
+    width: 100%;
     overflow: hidden;
+    height: 15rem;
   }
   
-  .content .content-overlay {
+  .card-content .content-overlay {
     background: rgba(255,255,255,.8);
     position: absolute;
     left: 0;
@@ -17,8 +19,8 @@
     transition: all 0.4s ease-in-out 0s;
   }
   
-  .content:hover .content-overlay{
-    opacity: 1;
+  .card-content:hover .content-overlay{
+    opacity: .7;
   }
   
   .content-details {
@@ -36,7 +38,7 @@
     transition: all 0.3s ease-in-out 0s;
   }
   
-  .content:hover .content-details{
+  .card-content:hover .content-details{
     top: 50%;
     left: 50%;
     opacity: 1;
