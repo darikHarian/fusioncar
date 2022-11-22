@@ -40,6 +40,18 @@
   font-size: 16px;
 }
 
+.vw-carousel-caption {
+  height: 5em;
+}
+
+.vw-caption-title {
+  font-size: 20px;
+}
+
+.vw-caption-text {
+  font-size: 16px;
+}
+
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-duration: .6s;
@@ -78,6 +90,20 @@
   }
 
   .caption-text {
+    font-size: 27px;
+  }
+
+  .vw-carousel-caption {
+    width: 40vw;
+    height: 8em;
+    margin-bottom: 10vh;
+  }
+
+  .vw-caption-title {
+    font-size: 30px;
+  }
+
+  .vw-caption-text {
     font-size: 27px;
   }
 }
