@@ -52,6 +52,20 @@ body {
     color: #e0e0e0;
 }
 
+#tunning {
+    background: url("../img/golf-gti-tunning.png");
+    height: 35em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+}
+
+.tunning-fs {
+    font-size: 55px;
+}
+
 .sh-light {
     text-shadow: 1px 2px 3px #f5f5f5 !important;
 }
