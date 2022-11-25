@@ -68,6 +68,10 @@ body {
     object-fit: cover;
 }
 
+.bg-products-semidark {
+    background: url("../img/categories/bg-products-light25.png");
+}
+
 .btn-submit {
     width: 50%;
 }
