@@ -26,8 +26,6 @@ body {
 .nav-item {
     border-radius: 50px;
     background: #22252a;
-    box-shadow:  10px 10px 60px #2a2b2b,
-             -10px -10px 60px #343636;
     width: 100%;
 }
 
@@ -142,6 +140,12 @@ body {
 @media only screen and (min-width: 1200px) {
     .nav-item {
         width: 8em;
+        box-shadow:  10px 10px 60px #2a2b2b,
+             -10px -10px 60px #343636;
+    }
+
+    .card-cat {
+        width: 20%;
     }
 }
 
