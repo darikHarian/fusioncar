@@ -95,6 +95,14 @@ body {
     border: none;
 }
 
+.bg-cards-75 {
+    background: url("../img/bg-cards-75.png");
+}
+
+.bg-cards-90 {
+    background: url("../img/bg-cards-90.png");
+}
+
 .categories-img {
     object-fit: cover;
 }
