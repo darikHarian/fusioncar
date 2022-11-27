@@ -16,9 +16,6 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -o-background-attachment: fixed;
 }
 
 #logo {
