@@ -12,7 +12,11 @@ main {
 }
 
 body {
-    background: #000;
+    background: url("../img/bg-carbon-fiber-8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
 
 #logo {
@@ -25,7 +29,7 @@ body {
 
 .nav-item {
     border-radius: 50px;
-    background: #22252a;
+    background: rgba(33,33,33,.5);
     width: 100%;
 }
 
@@ -35,7 +39,7 @@ body {
 }
 
 .nav-item:hover {
-    background: #2b2d32;
+    background: #202020;
 }
 
 .nav-link {
@@ -51,7 +55,7 @@ body {
 }
 
 #tunning {
-    background: url("../img/golf-gti-tunning.png");
+    background: url("../img/golf-gti-tunning.jpg");
     height: 35em;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,6 +66,18 @@ body {
 
 .tunning-fs {
     font-size: 55px;
+}
+
+/* .bg-transparent {
+    background: rgba(0,0,0,.0);
+} */
+
+.bg-carbon-fiber {
+    background: url("../img/bg-carbon-fiber.png");
+}
+
+.bg-black {
+    background: #000;
 }
 
 .sh-light {
