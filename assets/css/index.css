@@ -14,9 +14,8 @@ main {
 body {
     background: url("../img/bg-carbon-fiber-8.png");
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
+    background-repeat: repeat;
+
 }
 
 #logo {
