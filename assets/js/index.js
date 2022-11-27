@@ -1,3 +1,5 @@
-document.body.onscroll = function(){
-    document.body.style.backgroundPositionY = window.pageYOffset +"px";
-};
+// PARALLAX EFFECT
+
+// document.body.onscroll = function(){
+//     document.body.style.backgroundPositionY = window.pageYOffset +"%";
+// };
