@@ -74,6 +74,10 @@ body {
     background: url("../img/bg-carbon-fiber.png");
 }
 
+.border-transparent {
+    border-color: transparent !important;
+}
+
 .bg-black {
     background: #000;
 }
@@ -92,6 +96,10 @@ body {
 
 .categories-img {
     object-fit: cover;
+}
+
+.bg-products {
+    background: url("../img/categories/bg-products.png");
 }
 
 .bg-products-semidark {
