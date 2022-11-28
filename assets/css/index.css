@@ -124,11 +124,11 @@ body {
 }
 
 .space-mobile {
-    height: 5rem;
+    height: 5rem !important;
 }
 
 .space-mobile-2 {
-    height: 7.5rem;
+    height: 7.5rem !important;
 }
 
 /* Screen SM */
@@ -167,7 +167,7 @@ body {
     }
 
     .space-mobile {
-        height: 4em;
+        height: 4em !important;
     }
 }
 
